@@ -7,7 +7,7 @@ int getop(char s[]);
 void push(double);
 double pop(void);
 char s[MAXOP];
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int type;
     double op2;
